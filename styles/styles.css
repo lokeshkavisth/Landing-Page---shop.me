@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+html,
+body {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  font-size: 0.9em;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 30px;
+  transition: 0.4s ease;
+}
+
+.btn:hover {
+  background-color: #4e60c7;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #f7efef;
+  padding: 0 8%;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header nav .header-logo {
+  width: 9%;
+  padding: 10px;
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  position: relative;
+}
+.header nav ul .hamburger {
+  position: absolute;
+  top: 1em;
+  left: 0.6em;
+  color: #d9e0ff;
+  display: none;
+}
+.header nav ul li {
+  margin: 0 10px;
+}
+.header nav ul li a {
+  color: #3f51b5;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  transition: 0.4s ease;
+  font-weight: 400;
+}
+.header nav ul li a i {
+  display: none;
+}
+.header nav ul li a:hover,
+.header nav ul li :focus {
+  background-color: #7084f5;
+  color: #fff;
+}
+.header .nav-text {
+  margin-top: 15%;
+  width: 50%;
+  text-transform: capitalize;
+}
+.header .nav-text h1 {
+  font-size: 3em;
+  color: #3f51b5;
+}
+.header .nav-text p {
+  font-size: 1em;
+  margin: 20px 0 40px;
+  color: #424549;
+}
+.header .nav-img {
+  background-color: #d9e0ff;
+  position: absolute;
+  top: 0;
+  left: 65%;
+}
+.header .nav-img img {
+  display: block;
+  padding-top: 40%;
+  margin-bottom: -195px;
+}
+.header .shoppers {
+  width: 50%;
+  text-transform: uppercase;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 10% 100%;
+}
+.header .shoppers section {
+  margin: 0 5%;
+}
+.header .shoppers section h1 {
+  font-weight: 600;
+}/*# sourceMappingURL=styles.css.map */
